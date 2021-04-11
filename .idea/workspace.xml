@@ -24,8 +24,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3162e155-c7dc-4f3c-bf40-18d4f1a3a077" name="Default Changelist" comment="Fixed bootstrap">
+    <list default="true" id="3162e155-c7dc-4f3c-bf40-18d4f1a3a077" name="Default Changelist" comment="Added Laravel Charts Library">
+      <change beforePath="$PROJECT_DIR$/.idea/lora-webclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lora-webclient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -157,6 +166,9 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/chartisan/php" />
+      <path value="$PROJECT_DIR$/vendor/consoletvs/charts" />
+      <path value="$PROJECT_DIR$/vendor/laraveldaily/laravel-charts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qvONvHV22WJ3US8HmPVWzjJ4Hv" />
@@ -168,10 +180,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\damia\PhpstormProjects\lora-webclient\resources\views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -193,7 +210,8 @@
       <workItem from="1617956567934" duration="2436000" />
       <workItem from="1617959035125" duration="1176000" />
       <workItem from="1618049569627" duration="3754000" />
-      <workItem from="1618055616684" duration="4425000" />
+      <workItem from="1618055616684" duration="7374000" />
+      <workItem from="1618125823649" duration="8610000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bootstrap">
       <created>1618061083385</created>
@@ -202,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618061083385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Laravel Charts Library">
+      <created>1618062907405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618062907405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +247,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bootstrap" />
+    <MESSAGE value="Added Laravel Charts Library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Laravel Charts Library" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="178" key="#Deployment" timestamp="1617963404445">
@@ -241,10 +267,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2766" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617963348039" />
-    <state x="2472" y="239" key="Vcs.Push.Dialog.v2" timestamp="1618061088062">
+    <state x="2472" y="239" key="Vcs.Push.Dialog.v2" timestamp="1618062910878">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618061088062" />
+    <state x="2472" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618062910878" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1617962018301">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
