@@ -13,11 +13,19 @@ class CreateDataTable extends Migration
      */
     public function up()
     {
-        Schema::create('data', function (Blueprint $table) {
-            $table->id();
-            $table->foreign('sensor_id')->references('id')->on('sensor')->onDelete('cascade');
-            $table->float('value');
-            $table->timestamps();
+        if (!Schema::hasTable('data')) {
+            Schema::create('data', function (Blueprint $table) {
+                $table->increments('id');
+                $table->integer('sensor_id')->unsigned();
+                $table->float('value');
+                $table->timestamps();
+            });
+        }
+
+        Schema::table('data', function (Blueprint $table) {
+
+            $table->foreign('sensor_id')->references('id')->on('sensor');
+
         });
     }
 

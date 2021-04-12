@@ -24,19 +24,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3162e155-c7dc-4f3c-bf40-18d4f1a3a077" name="Default Changelist" comment="Added Laravel Charts Library">
-      <change beforePath="$PROJECT_DIR$/.idea/lora-webclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lora-webclient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="3162e155-c7dc-4f3c-bf40-18d4f1a3a077" name="Default Changelist" comment="Migrations (broken)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_11_123802_create_device_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_11_123802_create_device_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_11_130041_create_sensor_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_11_130041_create_sensor_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_11_130842_create_data_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_11_130842_create_data_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +203,8 @@
       <workItem from="1617959035125" duration="1176000" />
       <workItem from="1618049569627" duration="3754000" />
       <workItem from="1618055616684" duration="7374000" />
-      <workItem from="1618125823649" duration="8610000" />
+      <workItem from="1618125823649" duration="9280000" />
+      <workItem from="1618212806381" duration="5322000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bootstrap">
       <created>1618061083385</created>
@@ -227,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618062907405</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed Charts">
+      <created>1618147302461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618147302461</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Migrations (broken)">
+      <created>1618147322305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618147322305</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,16 +255,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed bootstrap" />
     <MESSAGE value="Added Laravel Charts Library" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Laravel Charts Library" />
+    <MESSAGE value="Fixed Charts" />
+    <MESSAGE value="Migrations (broken)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrations (broken)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="178" key="#Deployment" timestamp="1617963404445">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="178" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617963404445" />
-    <state x="2660" y="261" key="FileChooserDialogImpl" timestamp="1617963173602">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1618219612168">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618219612168" />
     <state x="2660" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617963173602" />
     <state x="2568" y="84" width="1004" height="711" key="SettingsEditor" timestamp="1617961687701">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -267,10 +277,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2766" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617963348039" />
-    <state x="2472" y="239" key="Vcs.Push.Dialog.v2" timestamp="1618062910878">
+    <state x="2472" y="239" key="Vcs.Push.Dialog.v2" timestamp="1618147324804">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618062910878" />
+    <state x="2472" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618147324804" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1617962018301">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

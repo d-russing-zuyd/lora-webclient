@@ -13,12 +13,19 @@ class CreateSensorTable extends Migration
      */
     public function up()
     {
-        Schema::create('sensor', function (Blueprint $table) {
-            $table->id();
-            $table->foreign('device_id')->references('id')->on('device')->onDelete('cascade');
-            $table->integer('type');
-            $table->timestamps();
+        if (!Schema::hasTable('sensor')) {
+            Schema::create('sensor', function (Blueprint $table) {
+                $table->increments('id');
+                $table->integer('device_id')->unsigned();
+                $table->integer('type');
+                $table->timestamps();
+            });
+        }
+
+        Schema::table('sensor', function (Blueprint $table) {
+            $table->foreign('device_id')->references('id')->on('device');
         });
+
     }
 
     /**
