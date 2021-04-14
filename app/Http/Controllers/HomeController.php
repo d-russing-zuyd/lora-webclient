@@ -25,12 +25,24 @@ class HomeController extends Controller
     public function index()
     {
         $chart_options = [
-            'chart_title' => 'Gebruikers',
+            'chart_title' => 'Sensoren',
+            'chart_type' => 'line',
             'report_type' => 'group_by_date',
-            'model' => 'App\Models\User',
+            'model' => 'App\Models\Data',
+            'conditions' => [
+              ['name' => 'Geul', 'condition' => 'sensor_id = 1', 'color' => 'green'],
+//              ['name' => 'Geul2', 'condition' => 'sensor_id = 2', 'color' => 'blue'],
+            ],
             'group_by_field' => 'created_at',
-            'group_by_period' => 'month',
-            'chart_type' => 'bar',
+            'group_by_period' => 'hour',
+//            'aggregate_function' => 'avg',
+//            'aggregate_field' => 'data',
+            'filter_field' => 'created_at',
+            'group_by_field_format' => 'Y-m-d',
+//            'entries_number' => '5',
+            'column_class' => 'card-body'
+//            'aggregate_function' => 'sum',
+
         ];
         $chart1 = new LaravelChart($chart_options);
 
