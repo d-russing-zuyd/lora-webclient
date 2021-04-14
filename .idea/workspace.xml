@@ -24,10 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3162e155-c7dc-4f3c-bf40-18d4f1a3a077" name="Default Changelist" comment="Fixed Migrations">
+    <list default="true" id="3162e155-c7dc-4f3c-bf40-18d4f1a3a077" name="Default Changelist" comment="Fixed Chart">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +206,7 @@
       <workItem from="1618297533326" duration="1508000" />
       <workItem from="1618332970112" duration="1816000" />
       <workItem from="1618345994577" duration="2111000" />
-      <workItem from="1618384151166" duration="1335000" />
+      <workItem from="1618384151166" duration="1899000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bootstrap">
       <created>1618061083385</created>
@@ -244,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618220502758</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed Chart">
+      <created>1618392283098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618392283098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +274,8 @@
     <MESSAGE value="Fixed Charts" />
     <MESSAGE value="Migrations (broken)" />
     <MESSAGE value="Fixed Migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Migrations" />
+    <MESSAGE value="Fixed Chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Chart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="178" key="#Deployment" timestamp="1617963404445">
@@ -288,11 +295,11 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2766" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617963348039" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1618220504338">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2472" y="239" key="Vcs.Push.Dialog.v2" timestamp="1618392285718">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618220504338" />
-    <state x="2472" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618147324804" />
+    <state x="2472" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618392285718" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1617962018301">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
